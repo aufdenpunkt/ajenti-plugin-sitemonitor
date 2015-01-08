@@ -1,0 +1,8 @@
+<hc>
+    <box width="180">
+        <label id="website" text="{website}" />
+    </box>
+    <box width="20">
+        <icon id="status" icon="{status}" />
+    </box>
+</hc>
