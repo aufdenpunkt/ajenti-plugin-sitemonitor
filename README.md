@@ -1,14 +1,13 @@
 Site monitor
 ============
-Version: 0.1
+Version: 1.0
 
 
 
 Description
 -----------
-Simple configurable Ajenti widget to check if a website is up. Just enter your
-domain and the rest will be done by the widget. Currently there are only http
-requests possible.
+Site monitor is a simple configurable Ajenti dashboard widget to monitor if a website is up. Just enter your
+domain and the rest will be done by the widget.
 
 
 
@@ -23,8 +22,8 @@ Navigate to your Ajenti plugins directory (e.g. /var/lib/python-support/python2.
 
 Roadmap
 -------
-* Add checkbox config to switch between 'http://' and 'https://' requests.
-* Add tooltip with latest date of check.
+* **Add checkbox config to switch between 'http://' and 'https://' requests.** (Done)
+* **Add tooltip with latest date of check** (Done)
 
 
 
