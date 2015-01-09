@@ -1,7 +1,7 @@
 Site monitor
 ============
-
 Version: 0.1
+
 
 
 Description
@@ -23,7 +23,8 @@ Navigate to your Ajenti plugins directory (e.g. /var/lib/python-support/python2.
 
 Roadmap
 -------
-- Add checkbox config to switch between 'http://' and 'https://' requests
+* Add checkbox config to switch between 'http://' and 'https://' requests.
+* Add tooltip with latest date of check.
 
 
 
