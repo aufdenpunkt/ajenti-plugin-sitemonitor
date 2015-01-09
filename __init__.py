@@ -12,7 +12,7 @@ from ajenti.plugins import *
 
 info = PluginInfo(
     title='Site monitor',
-    icon='fa-globe',
+    icon='globe',
     dependencies=[
         PluginDependency('main'),
         PluginDependency('dashboard'),

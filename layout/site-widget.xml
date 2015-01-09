@@ -1,8 +1,19 @@
 <hc>
-    <box width="180">
-        <label id="website" text="{website}" />
+    <box width="20">
+        <icon icon="globe" />
+    </box>
+    <box width="310">
+        <label id="website" style="bold" text="---" />
     </box>
     <box width="20">
         <icon id="status" icon="{status}" />
     </box>
+
+    <dialog id="config-dialog" visible="False">
+        <pad>
+            <formline text="{Text}">
+                <textbox id="website" />
+            </formline>
+        </pad>
+    </dialog>
 </hc>
