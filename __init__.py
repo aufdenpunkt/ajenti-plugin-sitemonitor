@@ -3,7 +3,7 @@
 # @Author: chschw
 # @Date:   2015-01-08 11:24:33
 # @Last Modified by:   chschw
-# @Last Modified time: 2015-01-08 14:43:05
+# @Last Modified time: 2015-01-09 12:13:40
 
 
 from ajenti.api import *
@@ -16,7 +16,8 @@ info = PluginInfo(
     dependencies=[
         PluginDependency('main'),
         PluginDependency('dashboard'),
-        ModuleDependency('httplib2')
+        ModuleDependency('httplib2'),
+        ModuleDependency('datetime')
     ],
 )
 
