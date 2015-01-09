@@ -3,7 +3,7 @@
 # @Author: chschw
 # @Date:   2015-01-08 11:24:33
 # @Last Modified by:   chschw
-# @Last Modified time: 2015-01-09 10:39:47
+# @Last Modified time: 2015-01-09 12:47:43
 
 
 from ajenti.api import plugin
@@ -53,7 +53,6 @@ class SiteMonitorWidget (ConfigurableWidget):
         self.find('checkdate').text = 'Last check on ' + time
 
     def create_config(self):
-        print 'create config'
         return {
             'website': '',
             'protocoll': False
